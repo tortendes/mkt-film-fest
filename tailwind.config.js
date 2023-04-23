@@ -11,6 +11,8 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'film-awards-promo': 'url("/Group%2020.svg")',
+        'film-awards-hero': 'url("/340167578_240407728508287_3119180091219708388_n.jpg")'
       },
     },
   },

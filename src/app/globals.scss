@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.film-navbar {
+    @apply bg-[#222] px-5 py-2 flex items-center justify-between border-b-2 border-[#BA863B] text-white;
+    .logo-holder {
+        @apply max-h-32;
+    }
+    .links-md {
+        @apply invisible hidden md:visible md:flex items-center justify-center gap-3;
+        & a {
+            @apply text-2xl hover:cursor-pointer hover:border-b-4 hover:border-yellow-600 duration-75;
+        }
+    }
+}
+.links-sm {
+    @apply visible flex md:invisible md:hidden bg-[#BA863B] py-3 items-center justify-center gap-3;
+    & a {
+        @apply text-lg hover:cursor-pointer hover:border-b-2 hover:border-white text-white duration-75 uppercase;
+    }
+}

@@ -1,0 +1,19 @@
+
+.card {
+    @apply w-full md:w-2/3 bg-[#EAAC52] focus:bg-[#b1833e8a]  min-h-[45vh] md:max-h-[50vh] hover:cursor-pointer relative;
+    .image {
+        @apply w-full relative;
+    }
+    .text-group {
+        @apply px-3 py-2 text-white font-light;
+        hr {
+            @apply h-px bg-gray-200 border-0;
+        }
+        h3 {
+            @apply mb-2 uppercase text-center;
+        }
+        p {
+            @apply mt-3 text-center;
+        }
+    }
+}
