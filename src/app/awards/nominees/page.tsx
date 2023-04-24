@@ -48,7 +48,7 @@ export default function Nominees(): JSX.Element {
                             <span className={`${cg.className} font-bold text-md`}>Lila</span>
                         </div>
                         <div>
-                            <p className={`uppercase font-light text-lg`}>Celine Amber Anacay</p>
+                            <p className={`uppercase font-light text-lg`}>Celline Amber Anacay</p>
                             <span className={`${cg.className} font-bold text-md`}>Somnium</span>
                         </div>
                     </div>
