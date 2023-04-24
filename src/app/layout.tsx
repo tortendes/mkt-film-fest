@@ -3,8 +3,7 @@ import { Cormorant_Garamond, Montserrat, Rubik } from 'next/font/google'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import MKTFilmFest from '../../public/MKT Film Festival.svg'
-import MKTFilmFestSm from '../../public/bxs-film.svg.svg'
+import MKTFilmFest from '../../public/MKT.svg'
 
 export const metadata = {
   title: 'Makatotohanan Film Festival',
@@ -26,7 +25,7 @@ export default function RootLayout({
       <body>
         <nav className='film-navbar'>
           <div className="logo-holder">
-            <Image src={MKTFilmFest} alt="MKT Film Fest" className="logo-holder w-auto h-auto"></Image>
+            <Image src={MKTFilmFest} alt="MKT Film Fest" className="logo-holder w-auto h-auto" width={500} height={200}></Image>
           </div>
           <div className='links-md'>
             <Link href="/" legacyBehavior>
@@ -39,7 +38,7 @@ export default function RootLayout({
               <a className={`${rb.className}`}>Films</a>
             </Link>
             <Link href='/awards/' passHref legacyBehavior>
-              <div className='px-5 py-2.5 pl-32 flex items-center justify-center bg-film-awards-promo bg-cover bg-no-repeat hover:cursor-pointer'>
+              <div className='px-5 py-2.5 pl-32 flex items-center justify-center bg-film-awards-promo bg-cover bg-no-repeat hover:cursor-pointer text-white'>
                 <div>
                   <h1 className={`${cg.className} text-3xl`}>MKT Film Awards</h1>
                   <h3 className={`${rb.className} text-sm`}>Voting Starts at Monday, April 24</h3>
