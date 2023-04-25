@@ -20,27 +20,27 @@ export default function Home() {
       </div>
       <h1 className='w-full text-center font-bold text-2xl mt-4'>Voting starts on Monday, April 24. To learn more about Voting, click <Link href="/awards/voting" className="text-[#BA863B]">here</Link>.</h1>
       <div className="links-grid">
-        <Card image="/341270665_748780893505174_5367582560127919609_n.jpg" link="/awards/about">
+        <Card image="/tw-public/341270665_748780893505174_5367582560127919609_n.jpg" link="/awards/about">
           <h3>About the Awards</h3>
           <hr />
           <p>Learn more about how the ceremony started, the way it works, and others</p>
         </Card>
-        <Card image="/341171597_684541070024335_6356830580635443408_n.jpg" link="/awards/nominees">
+        <Card image="/tw-public/341171597_684541070024335_6356830580635443408_n.jpg" link="/awards/nominees">
           <h3>Nominees</h3>
           <hr />
           <p>See the nominees for the Makatotohanan Film Awards</p>
         </Card>
-        <Card image="/341171597_684541070024335_6356830580635443408_n.jpg" link="/awards/vote">
+        <Card image="/tw-public/341171597_684541070024335_6356830580635443408_n.jpg" link="/awards/vote">
           <h3>Voting</h3>
           <hr />
           <p>Information on voting on the awards</p>
         </Card>
-        <Card image="/339780075_771841130930425_2814568229658875102_n.jpg" link="/awards/watch">
+        <Card image="/tw-public/339780075_771841130930425_2814568229658875102_n.jpg" link="/awards/watch">
           <h3>How to watch</h3>
           <hr />
           <p>How to watch the ceremony wherever you are.</p>
         </Card>
-        <Card image="/341171597_684541070024335_6356830580635443408_n.jpg" link="/awards/partners">
+        <Card image="/tw-public/341171597_684541070024335_6356830580635443408_n.jpg" link="/awards/partners">
           <h3>Partners & Sponsors</h3>
           <hr />
           <p>The partners and sponsors associated with this award ceremony.</p>

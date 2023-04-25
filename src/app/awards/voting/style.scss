@@ -1,0 +1,16 @@
+.hero-section {
+    @apply flex flex-col items-center justify-center bg-hero-voting bg-cover bg-no-repeat bg-bottom md:bg-center h-[45vh];
+    .hero-title {
+        @apply tracking-widest text-3xl font-semibold text-white uppercase;
+    }
+}
+
+.film-category {
+    @apply mt-5;
+    .cat-title {
+        @apply text-3xl text-custom-gold font-semibold;
+    }
+    .cat-desc {
+        @apply text-lg font-light md:max-w-[72vw] mt-2;
+    }
+}
