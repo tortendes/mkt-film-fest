@@ -74,6 +74,7 @@ export default function Voting(): JSX.Element {
                     <Controller
                         control={control}
                         name="best-poster"
+                        defaultValue="Malikmata"
                         render={({ field }) => (
                             <RadioGroup { ...field } className="flex justify-stretch overflow-x-scroll">
                                 {nominees.best_poster.map(data => (
@@ -101,6 +102,7 @@ export default function Voting(): JSX.Element {
                     <Controller
                         control={control}
                         name="best-bgm"
+                        defaultValue="Malikmata"
                         render={({ field }) => (
                             <RadioGroup { ...field } className="flex justify-stretch overflow-x-scroll mt-3">
                                 {nominees.best_bgm.map(data => (
@@ -128,6 +130,7 @@ export default function Voting(): JSX.Element {
                     <Controller
                         control={control}
                         name="best-edit"
+                        defaultValue="Malikmata"
                         render={({ field }) => (
                             <RadioGroup { ...field } className="flex justify-stretch overflow-x-scroll mt-3">
                                 {nominees.best_editing.map(data => (
@@ -156,6 +159,7 @@ export default function Voting(): JSX.Element {
                     <Controller
                         control={control}
                         name="best-cinematography"
+                        defaultValue="Malikmata"
                         render={({ field }) => (
                             <RadioGroup { ...field } className="flex justify-stretch overflow-x-scroll mt-2">
                                 {nominees.best_editing.map(data => (
@@ -184,6 +188,7 @@ export default function Voting(): JSX.Element {
                     <Controller
                         control={control}
                         name="best-director"
+                        defaultValue="Malikmata"
                         render={({ field }) => (
                             <RadioGroup { ...field } className="flex justify-stretch overflow-x-scroll mt-2">
                                 {nominees.best_director.map(data => (
