@@ -4,16 +4,9 @@ const mt = Montserrat({ subsets: ["latin"] })
 const cg = Cormorant_Garamond({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"] })
 
 export default function Nominees(): JSX.Element {
-    const nominees = {
-        "Film": [
-            "Somnium",
-            "Malikmata"
-        ]
-    }
-
     return (
         <main className={`${mt.className} px-5 py-2`}>
-            <h1 className="text-5xl font-light">Makatotohanan Film Festival: Nominees</h1>
+            <h1 className="text-4xl font-light">Makatotohanan Film Festival: Nominees</h1>
             <p>
                 Here are the nominees for the Makatotohanan Film Awards, celebrating the best of MKT-made short film during the MKT Film Festival.
             </p>
@@ -95,7 +88,7 @@ export default function Nominees(): JSX.Element {
                         </div>
                         <div>
                             <p className={`uppercase font-light text-lg`}>Juno Isaac Jagape</p>
-                            <span className={`${cg.className} font-bold text-md`}>Somnium</span>
+                            <span className={`${cg.className} font-bold text-md`}>Lila</span>
                         </div>
                         <div>
                             <p className={`uppercase font-light text-lg`}>Sharmaine Claire Tomas</p>

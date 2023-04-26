@@ -1,0 +1,83 @@
+{
+    "best_poster": [
+        {
+            "title": "Malikmata",
+            "description": "Jarelle Emmanuel Payad Andulan",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Lila",
+            "description": "Juno Isaac Jagape, Althea Paglinawan",
+            "image": "/tw-public/posters/lila.png"
+        },
+        {
+            "title": "Somnium",
+            "description": "Sharmaine Claire Tomas",
+            "image": "/tw-public/posters/somnium.png"
+        }
+    ],
+    "best_bgm": [
+        {
+            "title": "Malikmata",
+            "description": "Dan Gabriel Galicia, Jarelle Emmanuel Payad Andulan",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Lila",
+            "description": "Angelo Magramo, Anne Denise Tagle, Althea Paglinawan",
+            "image": "/tw-public/posters/lila.png"
+        }
+    ],
+
+    "best_editing": [
+        {
+            "title": "Malikmata",
+            "description": "Dan Gabriel Galicia, Jarelle Emmanuel Payad Andulan",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Lila",
+            "description": "Angelo Magramo, Anne Denise Tagle, Althea Paglinawan",
+            "image": "/tw-public/posters/lila.png"
+        },
+        {
+            "title": "Somnium",
+            "description": "Sharmaine Claire Tomas",
+            "image": "/tw-public/posters/somnium.png"
+        }
+    ],
+    "best_cinematography": [
+        {
+            "title": "Malikmata",
+            "description": "Dan Gabriel Galicia, Vhince Buklatin",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Lila",
+            "description": "Lord Jay Doroño, Anne Denise Tagle",
+            "image": "/tw-public/posters/lila.png"
+        },
+        {
+            "title": "Somnium",
+            "description": "Sharmaine Claire Tomas, Celline Amber Anacay, Katherine Kahanap",
+            "image": "/tw-public/posters/somnium.png"
+        }
+    ],
+    "best_director": [
+        {
+            "title": "Malikmata",
+            "description": "Dan Gabriel Galicia, Jayson Martinez",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Lila",
+            "description": "Juno Isaac Jagape",
+            "image": "/tw-public/posters/lila.png"
+        },
+        {
+            "title": "Somnium",
+            "description": "Sharmaine Claire Tomas",
+            "image": "/tw-public/posters/somnium.png"
+        }
+    ]
+}

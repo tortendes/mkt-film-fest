@@ -41,7 +41,7 @@ export default function RootLayout({
               <div className='px-5 py-2.5 pl-32 flex items-center justify-center bg-film-awards-promo bg-cover bg-no-repeat hover:cursor-pointer text-white'>
                 <div>
                   <h1 className={`${cg.className} text-3xl`}>MKT Film Awards</h1>
-                  <h3 className={`${rb.className} text-sm`}>Voting Starts at Monday, April 24</h3>
+                  <h3 className={`${rb.className} text-sm`}>Vote NOW! Ends at Apr 27 12NN</h3>
                 </div>
                 <div className='fill-white'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style={{ color: 'currentcolor' }}><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
