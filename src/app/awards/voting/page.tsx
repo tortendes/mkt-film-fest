@@ -135,7 +135,7 @@ export default function Voting(): JSX.Element {
                                 Best Background Music
                             </h1>
                             <h3 className="cat-desc">
-                                The Best Background Music award acknowledges the important role of music in setting the mood and tone of a short film. This award honors the seamless integration of background music into the storytelling, enhancing the narrative and immersing viewers in the film's world.
+                                The Best Background Music award acknowledges the important role of music in setting the mood and tone of a short film. This award honors the seamless integration of background music into the storytelling, enhancing the narrative and immersing viewers in the film&quot;s world.
                             </h3>
                         </div>
                             <RadioGroup value={bbg} onChange={setbbg} className="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 gap-3 mt-3">
