@@ -4,7 +4,7 @@
 import  './style.scss'
 import { Montserrat, Cormorant_Garamond } from "next/font/google";
 import { initFirebase } from '../../../../utils/firebase'
-import { getAuth, signInWithPopup, FacebookAuthProvider } from 'firebase/auth'
+import { getAuth, signInWithPopup, FacebookAuthProvider, GoogleAuthProvider } from 'firebase/auth'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import Image from 'next/image'
 import { Controller, useForm } from 'react-hook-form';
@@ -16,7 +16,7 @@ const mt = Montserrat({ subsets: ["latin"] });
 const cg = Cormorant_Garamond({ subsets: ['latin'], weight: ['400'] })
 
 initFirebase()
-const provider = new FacebookAuthProvider();
+const provider = new GoogleAuthProvider();
 const auth = getAuth();
 
 const signIn = async () => {
@@ -49,8 +49,8 @@ export default function Voting(): JSX.Element {
                 <h1 className="hero-title">Voting</h1>
             </div>
             <div className="px-5 min-h-[55vh] flex flex-col items-center justify-center">
-                <p className="mt-5">To continue, please sign in using Facebook.</p>
-                <button className="bg-[#EAAC52] border-4 border-[#DE9936] hover:border-[#EAAC52] hover:bg-[#BA863B] text-white px-8 py-3" onClick={signIn}>Sign In with Facebook</button>
+                <p className="mt-5">To continue, please sign in using Google.</p>
+                <button className="bg-[#EAAC52] border-4 border-[#DE9936] hover:border-[#EAAC52] hover:bg-[#BA863B] text-white px-8 py-3" onClick={signIn}>Sign In with Google</button>
             </div>
             </main>
         )
