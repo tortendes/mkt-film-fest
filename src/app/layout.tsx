@@ -51,7 +51,7 @@ export default function RootLayout({
           </div>
         </nav>
           <div className="links-sm">
-            <Link href="/home" legacyBehavior>
+            <Link href="/" legacyBehavior>
               <a className={`${mont.className}`}>Home</a>
             </Link>
             <Link href="/about" legacyBehavior>
