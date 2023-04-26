@@ -79,5 +79,37 @@
             "description": "Sharmaine Claire Tomas",
             "image": "/tw-public/posters/somnium.png"
         }
+    ],
+    "best_supp_actor": [
+        {
+            "title": "Janine Marasigan",
+            "description": "Malikmata",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Heart Vhalen Saviñano",
+            "description": "Malikmata",
+            "image": "/tw-public/posters/lila.png"
+        },
+        {
+            "title": "Christian Mike Laurel",
+            "description": "Malikmata",
+            "image": "/tw-public/posters/somnium.png"
+        },
+        {
+            "title": "Althea Paglinawan",
+            "description": "Lila",
+            "image": "/tw-public/posters/malikmata.png"
+        },
+        {
+            "title": "Lord Jay Doroño",
+            "description": "Lila",
+            "image": "/tw-public/posters/lila.png"
+        },
+        {
+            "title": "Juno Isaac Jagape",
+            "description": "Lila",
+            "image": "/tw-public/posters/somnium.png"
+        }
     ]
 }

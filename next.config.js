@@ -3,6 +3,11 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: [
+      "cdn.torten.lol"
+    ]
+  }
 }
 
 module.exports = nextConfig
