@@ -3,29 +3,39 @@
         {
             "title": "Malikmata",
             "description": "Jarelle Emmanuel Payad Andulan",
-            "image": "/tw-public/posters/malikmata.png"
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": true,
+            "place": 1
         },
         {
             "title": "Lila",
             "description": "Juno Isaac Jagape, Althea Paglinawan",
-            "image": "/tw-public/posters/lila.png"
+            "image": "/tw-public/posters/lila.png",
+            "winner": false,
+            "place": 2
         },
         {
             "title": "Somnium",
             "description": "Sharmaine Claire Tomas",
-            "image": "/tw-public/posters/somnium.png"
+            "image": "/tw-public/posters/somnium.png",
+            "winner": false,
+            "place": 3
         }
     ],
     "best_bgm": [
         {
             "title": "Malikmata",
             "description": "Dan Gabriel Galicia, Jarelle Emmanuel Payad Andulan",
-            "image": "/tw-public/posters/malikmata.png"
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": true,
+            "place": 1
         },
         {
             "title": "Lila",
             "description": "Angelo Magramo, Anne Denise Tagle, Althea Paglinawan",
-            "image": "/tw-public/posters/lila.png"
+            "image": "/tw-public/posters/lila.png",
+            "winner": false,
+            "place": 2
         }
     ],
 
@@ -33,83 +43,204 @@
         {
             "title": "Malikmata",
             "description": "Dan Gabriel Galicia, Jarelle Emmanuel Payad Andulan",
-            "image": "/tw-public/posters/malikmata.png"
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": true,
+            "place": 1
         },
         {
             "title": "Lila",
             "description": "Angelo Magramo, Anne Denise Tagle, Althea Paglinawan",
-            "image": "/tw-public/posters/lila.png"
+            "image": "/tw-public/posters/lila.png",
+            "winner": false,
+            "place": 2
         },
         {
             "title": "Somnium",
             "description": "Sharmaine Claire Tomas",
-            "image": "/tw-public/posters/somnium.png"
+            "image": "/tw-public/posters/somnium.png",
+            "winner": false,
+            "place": 3
         }
     ],
-    "best_cinematography": [
+    "best_story": [
         {
             "title": "Malikmata",
-            "description": "Dan Gabriel Galicia, Vhince Buklatin",
-            "image": "/tw-public/posters/malikmata.png"
-        },
-        {
-            "title": "Lila",
-            "description": "Lord Jay Doroño, Anne Denise Tagle",
-            "image": "/tw-public/posters/lila.png"
-        },
-        {
-            "title": "Somnium",
-            "description": "Sharmaine Claire Tomas, Celline Amber Anacay, Katherine Kahanap",
-            "image": "/tw-public/posters/somnium.png"
-        }
-    ],
-    "best_director": [
-        {
-            "title": "Malikmata",
-            "description": "Dan Gabriel Galicia, Jayson Martinez",
-            "image": "/tw-public/posters/malikmata.png"
+            "description": "Heart Vhalen Saviñano",
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": true,
+            "place": 1
         },
         {
             "title": "Lila",
             "description": "Juno Isaac Jagape",
-            "image": "/tw-public/posters/lila.png"
+            "image": "/tw-public/posters/lila.png",
+            "winner": true,
+            "place": 2
         },
         {
             "title": "Somnium",
             "description": "Sharmaine Claire Tomas",
-            "image": "/tw-public/posters/somnium.png"
+            "image": "/tw-public/posters/somnium.png",
+            "winner": false,
+            "place": 3
         }
     ],
-    "best_supp_actor": [
+    "best_cinematography": [
         {
-            "title": "Janine Marasigan",
+            "title": "Somnium",
+            "description": "Sharmaine Claire Tomas, Celline Amber Anacay, Katherine Kahanap",
+            "image": "/tw-public/posters/somnium.png",
+            "winner": true,
+            "place": 1
+        },
+        {
+            "title": "Malikmata",
+            "description": "Dan Gabriel Galicia, Vhince Buklatin",
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": false,
+            "place": 2
+        },
+        {
+            "title": "Lila",
+            "description": "Lord Jay Doroño, Anne Denise Tagle",
+            "image": "/tw-public/posters/lila.png",
+            "winner": false,
+            "place": 3
+        }
+    ],
+    "best_director": [
+        {
+            "title": "Dan Gabriel Galicia, Jayson Martinez",
             "description": "Malikmata",
-            "image": "/tw-public/posters/malikmata.png"
-        },
-        {
-            "title": "Heart Vhalen Saviñano",
-            "description": "Malikmata",
-            "image": "/tw-public/posters/lila.png"
-        },
-        {
-            "title": "Christian Mike Laurel",
-            "description": "Malikmata",
-            "image": "/tw-public/posters/somnium.png"
-        },
-        {
-            "title": "Althea Paglinawan",
-            "description": "Lila",
-            "image": "/tw-public/posters/malikmata.png"
-        },
-        {
-            "title": "Lord Jay Doroño",
-            "description": "Lila",
-            "image": "/tw-public/posters/lila.png"
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": true,
+            "place": 1
         },
         {
             "title": "Juno Isaac Jagape",
             "description": "Lila",
-            "image": "/tw-public/posters/somnium.png"
+            "image": "/tw-public/posters/lila.png",
+            "winner": false,
+            "place": 2
+        },
+        {
+            "title": "Sharmaine CLaire Tomas",
+            "description": "Somnium",
+            "image": "/tw-public/posters/somnium.png",
+            "winner": false,
+            "place": 3
+        }
+    ],
+    "best_supp_actor": [
+        {
+            "value": 0,
+            "title": "Christian Mike Laurel",
+            "description": "Malikmata",
+            "image": "https://cdn.torten.lol/film-awards/laurel.png",
+            "winner": false
+        },
+        {
+            "value": 1,
+            "title": "Juno Isaac Jagape",
+            "description": "Lila",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        },
+        {
+            "value": 2,
+            "title": "Jolland Agripa",
+            "description": "Somnium",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": true
+        }
+    ],
+    "best_supp_actress": [
+        {
+            "value": 0,
+            "title": "Janine Marasigan",
+            "description": "Malikmata",
+            "image": "https://cdn.torten.lol/film-awards/laurel.png",
+            "winner": true
+        },
+        {
+            "value": 1,
+            "title": "Jasmine Aya Sentiles",
+            "description": "Lila",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        },
+        {
+            "value": 2,
+            "title": "Althea Paglinawan",
+            "description": "Somnium",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        }
+    ],
+    "best_actor": [
+        {
+            "value": 0,
+            "title": "Jaymart Tolentino",
+            "description": "Bianca Manimtim",
+            "image": "https://cdn.torten.lol/film-awards/iah.png",
+            "winner": true
+        },
+        {
+            "value": 1,
+            "title": "Lord Jay Doroño",
+            "description": "Lila",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        },
+        {
+            "value": 2,
+            "title": "Prince Amir Luna",
+            "description": "Somnium",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        }
+    ],
+    "best_actress": [
+        {
+            "value": 0,
+            "title": "Jeddediah Merald De Roxas",
+            "description": "Bianca Manimtim",
+            "image": "https://cdn.torten.lol/film-awards/iah.png",
+            "winner": true
+        },
+        {
+            "value": 1,
+            "title": "Bianca Manimtim",
+            "description": "Lila",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        },
+        {
+            "value": 2,
+            "title": "Celline Amber Anacay",
+            "description": "Somnium",
+            "image": "https://cdn.torten.lol/film-awards/placeholder.png",
+            "winner": false
+        }
+    ],
+    "best_film": [
+        {
+            "title": "Malikmata",
+            "description": "Dan Gabriel Galicia, Jayson Martinez, Producers",
+            "image": "/tw-public/posters/malikmata.png",
+            "winner": true
+        },
+        {
+            "title": "Lila",
+            "description": "Juno Isaac Jagape, Producers",
+            "image": "/tw-public/posters/lila.png",
+            "winner": false
+        },
+        {
+            "title": "Somnium",
+            "description": "Sharmaine Claire Tomas, Producers",
+            "image": "/tw-public/posters/somnium.png",
+            "winner": false
         }
     ]
 }

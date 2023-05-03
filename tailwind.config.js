@@ -28,7 +28,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'film-awards-promo': 'url("/Group%2020.svg")',
         'film-awards-hero': 'url("/tw-public/340167578_240407728508287_3119180091219708388_n.jpg")',
-        'hero-voting': 'url("/tw-public/hero-voting.jpg")'
+        'hero-voting': 'url("/tw-public/hero-voting.jpg")',
+        'hero-winners': 'url("/tw-public/IMG_20230428_165124.jpg")'
       },
     },
   },

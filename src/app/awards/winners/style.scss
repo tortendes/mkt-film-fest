@@ -1,0 +1,28 @@
+.hero-section {
+    @apply flex flex-col items-center justify-center bg-hero-winners bg-cover bg-no-repeat bg-bottom md:bg-center h-[45vh];
+    .hero-title {
+        @apply tracking-wide text-4xl font-bold text-white uppercase;
+    }
+}
+
+.body {
+    @apply px-3 py-2 mt-2;
+    .category {
+        @apply mx-3;
+        .title {
+            @apply text-4xl font-light text-custom-gold mb-2;
+        }
+        .description {
+            @apply w-full md:w-3/4;
+        }
+        .selection {
+            @apply my-4 flex flex-col gap-2;
+            .sl-title {
+                @apply text-3xl font-medium;
+            }
+            .sl-description {
+                @apply text-lg font-medium;
+            }
+        }
+    }
+}
