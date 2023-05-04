@@ -1,7 +1,45 @@
+import { Bubblegum_Sans } from "next/font/google"
+const bs = Bubblegum_Sans({ subsets: ["latin"], weight: ["400"] })
+
+import OtherCard from '../../../components/OtherCard'
+
 export default function Films() {
     return (
-        <main>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02QvS7Pjyx39VjfBVGqXSZDuCZH5JjNfSUD6MDqz5s1zsHeJRKmuuquvueFt93Gugil%26id%3D100072344034201&width=500&show_text=false&appId=417349510482373&height=447" width="500" height="447" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <main className="mx-5 flex flex-col items-center gap-5">
+            <h1 className={`${bs.className} text-4xl font-bold uppercase mt-5`}>Films</h1>
+            <div className="flex items-center justify-center gap-5 overflow-x-scroll md:overflow-auto">
+                <OtherCard
+                    title="Malikmata"
+                    description={
+                        <>
+                            <p>Written by Heart Saviñano</p>
+                            <p>Directed by Dan Gabriel Galicia, Jayson Martinez</p>
+                            <br />
+                            <a href="https://www.facebook.com/100072344034201/videos/pcb.245196897901776/559092642979859" target="_blank" className="hover:underline text-lg">&#9654; Watch</a>
+                        </>
+                    }
+                    image="/tw-public/posters/malikmata.png" />
+                <OtherCard
+                    title="Lila"
+                    description={
+                        <>
+                            <p>Writte and Directed by Juno Isaac Jagape</p>
+                            <br />
+                            <a href="https://www.facebook.com/100072344034201/videos/pcb.248275947593871/1865188417171695" target="_blank" className="hover:underline text-lg">&#9654; Watch</a>
+                        </>
+                    }
+                    image="/tw-public/posters/lila.png" />
+                <OtherCard
+                    title="Somnium"
+                    description={
+                        <>
+                            <p>Writte and Directed by Sharmaine Claire Tomas</p>
+                            <br />
+                            <span className="text-gray-600">Video Unavailable</span>
+                        </>
+                    }
+                    image="/tw-public/posters/somnium.png" />
+            </div>
         </main>
     )
 }

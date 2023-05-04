@@ -1,6 +1,7 @@
 import { Montserrat, Cormorant_Garamond } from "next/font/google"
 import winners from '../../../../utils/nominees.json'
 import './style.scss'
+import Link from "next/link";
 
 const mt = Montserrat({ subsets: ["latin"] });
 const cg = Cormorant_Garamond({ subsets: ["latin"], weight: ["300", "400", "500"] })
@@ -27,6 +28,7 @@ export default function Winners(): JSX.Element {
                 <p className={`${cg.className} hero-title`}>Winners</p>
             </div>
             <div className="body">
+                <Link href="/awards/" className={`${mt.className} text-custom-gold hover:underline mb-2 ml-3 hover:ml-5 duration-200`}>&larr; Go back</Link>
                 <div className="category">
                     <h1 className={`${mt.className} title`}>Best Picture (Poster)</h1>
                     <p className={`${mt.className} description`}>The Best Poster award celebrates the artistry and creativity that goes into crafting an unforgettable movie poster. The winning poster captures the essence of the movie with striking visuals, bold typography, and innovative design. It entices audiences with a tantalizing glimpse of the film&#38;s world and promises an unforgettable cinematic experience. Whether it&#38;s a minimalist masterpiece, a breathtaking collage, or a bold and daring design, the Best Poster award showcases the very best of movie marketing and design.</p>

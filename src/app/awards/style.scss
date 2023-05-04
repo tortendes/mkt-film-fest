@@ -3,5 +3,5 @@ main .hero-section {
 }
 
 .links-grid {
-    @apply px-5 grid grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-3 place-items-center gap-4;
+    @apply px-5 pb-10 grid grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-1 place-items-center gap-4;
 }
